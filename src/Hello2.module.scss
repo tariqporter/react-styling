@@ -1,0 +1,16 @@
+.root {
+  background: #d1d1d1;
+}
+
+.myButton {
+  margin: 10px;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: #333;
+    color: #eee;
+  }
+}
