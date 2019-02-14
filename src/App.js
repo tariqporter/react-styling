@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div>
         <Hello />
-        <Hello2 />
+        <Hello2 isAlternate={true} />
       </div>
     );
   }

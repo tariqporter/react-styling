@@ -1,3 +1,5 @@
+@import './constants/screen';
+
 .root {
   background: #d1d1d1;
 }
@@ -12,5 +14,25 @@
   &:hover {
     background-color: #333;
     color: #eee;
+  }
+
+  &_alternate {
+    background-color: red;
+  }
+}
+
+@media only screen and (min-width: $md) {
+  .myButton {
+    &_alternate {
+      background-color: blue;
+    }
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .myButton {
+    &_alternate {
+      background-color: green;
+    }
   }
 }
